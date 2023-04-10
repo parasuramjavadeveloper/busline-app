@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Bus Line Information
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that displays the top 10 bus lines and their respective bus stops. Users can toggle between showing all stops and the top 10 stops for each line.
 
-## Available Scripts
+## Technologies/Tools Used
 
-In the project directory, you can run:
+- React
+- Redux
+- Redux Toolkit
+- React Testing Library
+- Jest
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup & Run Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+`git clone https://github.com/m-deepankar-singh/bus-frontend.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+2. Change to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`cd frontend`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Run the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application will open in your default web browser at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Run tests:
 
-### Code Splitting
+`npm test`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Swagger Documentation
 
-### Making a Progressive Web App
+You can find the API documentation at the following link:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Swagger API Documentation](http://3.22.116.126:9091/swagger-ui.html#/)
 
-### Advanced Configuration
+## Future Code Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Implement pagination for long lists of bus stops.
+2. Add search functionality to find specific bus lines and stops.
+3. Improve error handling for API calls and display user-friendly messages.
+4. Add more comprehensive test coverage for the application.
 
-### Deployment
+## Challenge
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The task is to write an application to find out which bus lines that have the most bus stops on their route, and to present the top 10 bus lines in a nice and formatted way in a web browser.
+The web page should show the names of every bus stop for each of the bus lines in the top 10 list.
+There are no requirements how the bus stops are sorted.
+To accomplish the task please use the Trafiklab’s open API (https://www.trafiklab.se/). You can find more information about the specific API on the documentation page: https://www.trafiklab.se/api/sl-hallplatser-och-linjer-2.
+You can register your own account at Trafiklab.
+The data should be automatically gathered from API for each run of the application.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
