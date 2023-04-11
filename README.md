@@ -15,12 +15,12 @@ A React application that displays the top 10 bus lines and their respective bus 
 
 1. Clone the repository:
 
-`git clone https://github.com/m-deepankar-singh/bus-frontend.git`
+`git clone https://github.com/parasuramjavadeveloper/busline-app.git`
 
 
 2. Change to the project directory:
 
-`cd frontend`
+`cd busline-app`
 
 
 3. Install the dependencies:
