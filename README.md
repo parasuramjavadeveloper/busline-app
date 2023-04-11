@@ -4,11 +4,11 @@ A React application that displays the top 10 bus lines and their respective bus 
 
 ## Technologies/Tools Used
 
-- React
-- Redux
-- Redux Toolkit
-- React Testing Library
-- Jest
+- React -18.2.0 Version
+- Redux -4.2.1  Version
+- Redux Toolkit - 1.9.3 Version  
+- React Testing Library - 13.4.0 Version
+- Jest - 5.16.5 Version
 
 
 ## Setup & Run Instructions
